@@ -1,6 +1,6 @@
 // Variables
 const appID = "app";
-const headingText = "Your App Heading"; 
+
 
 // DOM Elements
 let appContainer = document.getElementById(appID);
