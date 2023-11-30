@@ -79,8 +79,7 @@ body {
 
 .todo-list {
   display: flex;
-  flex-direction: column-reverse; /* Reverse to display new tasks at the top */
-  padding: 20px;
+  flex-direction: column-reverse; 
   overflow-y: auto;
   max-height: 200px;
 }
