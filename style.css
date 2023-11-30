@@ -42,6 +42,114 @@ main {
 }
 
 
+
+
+/* My CSS */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: hsl(240, 5%, 79%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+
+
+
+
+.todo-container {
+  width: 350px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.todo-header {
+  background-color: #022034;
+  color: #f9fbfb;
+  padding: 20px;
+  font-size: 1.8rem;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column-reverse; 
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #474545;
+}
+
+.todo-footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.add-todo-input {
+  width: 70%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.add-todo-button{
+  width: 25%;
+  margin: 1rem;
+  padding: 1rem;
+  box-sizing: content-box;
+  background-color: #022034;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.clear-tasks-button {
+  width: 35%;
+  padding: 1rem;
+  margin: 1rem;
+  box-sizing: content-box;
+  background-color: #c40404;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.delete-button {
+  background-color: #e74c3c;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 8px 16px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+/* My CSS ends here */
+
+
 /****** Screen reader text utility clsas *******/
 .sr-only {
   position: absolute;
@@ -54,3 +162,7 @@ main {
   white-space: nowrap;
   border-width: 0;
 }
+
+
+
+
